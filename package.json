@@ -1,0 +1,33 @@
+{
+  "name": "periodical",
+  "version": "0.0.1",
+  "description": "A periodical readable stream for nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taoyuan/periodical.git"
+  },
+  "keywords": [
+    "periodical",
+    "cycle",
+    "timer",
+    "stream",
+    "readable"
+  ],
+  "author": "Tao Yuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taoyuan/periodical/issues"
+  },
+  "homepage": "https://github.com/taoyuan/periodical",
+  "dependencies": {
+    "nanotimer": "^0.3.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0"
+  }
+}
